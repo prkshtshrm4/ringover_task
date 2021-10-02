@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>Demo_Ringover</title>
+    </head>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        var socket = io();
+        socket.on('message', function(data){document.write(data)});
+    </script>
+    <body>
+        hello
+    </body>
+</html>
